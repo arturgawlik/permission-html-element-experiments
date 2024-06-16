@@ -1,0 +1,46 @@
+body {
+  background: gainsboro;
+  display: flex;
+  font-family: monospace;
+}
+
+.main-container {
+  margin: auto;
+  background: pink;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-top: 50px;
+
+  p {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+.permission-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+
+  label {
+    display: flex;
+
+    .permission-elem-container {
+      margin-left: auto;
+    }
+
+    .text-elem-container {
+      margin-right: 30px;
+    }
+
+    permission {
+      background-color: black;
+      color: white;
+      padding: 50px 60px;
+    }
+  }
+}

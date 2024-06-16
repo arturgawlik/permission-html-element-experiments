@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>permission html element experiments</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <permission type="microphone" />
-    <permission type="camera" />
+    <div class="main-container">
+        <p>
+            Perrmisions
+        </p>
+        <div class="permission-container">
+            <label>
+                <div class="text-elem-container">
+                    Microphone permission
+                </div>
+                <div class="permission-elem-container">
+                    <permission type="microphone" />
+                </div>
+            </label>
+            <label>
+                <div class="text-elem-container">
+                    Camera permission
+                </div>
+                <div class="permission-elem-container">
+                    <permission type="camera" />
+                </div>
+            </label>
+        </div>
+    </div>
 </body>
 </html>

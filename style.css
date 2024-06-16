@@ -38,9 +38,14 @@ body {
     }
 
     permission {
-      background-color: black;
+      background-color: indianred;
       color: white;
       padding: 50px 60px;
+    }
+
+    :granted {
+      background-color: limegreen;
+      color: black;
     }
   }
 }
